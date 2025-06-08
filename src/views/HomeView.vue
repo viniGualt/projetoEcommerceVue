@@ -76,7 +76,6 @@ export default {
 </script>
 
 <template>
-  <Navbar @buscar-produto="buscarPorNome" />
   <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <!-- Resultado da busca -->
     <div class="mb-8">
