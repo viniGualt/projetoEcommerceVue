@@ -1,5 +1,5 @@
 <script>
-import { listaProdutos, buscarProdutosPorNome, categoriaSelecionada } from '../assets/api.js';
+import { listaProdutos, categoriaSelecionada } from '../assets/api.js';
 import { watch } from 'vue';
 
 export default {
