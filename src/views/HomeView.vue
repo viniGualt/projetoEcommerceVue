@@ -59,10 +59,17 @@ export default {
         this.loading = false;
       }
     },
-    async buscarPorNome(q) {
-      this.currentPage = 1;
-      this.searchQuery = q;
-      await this.fetchProdutos();
+  },
+  watch: {
+    currentPage() {
+      this.fetchProdutos();
+    },
+    'categoriaSelecionada.value': {
+      handler() {
+        this.currentPage = 1;
+        this.fetchProdutos();
+      },
+      immediate: true
     },
   },
 };
