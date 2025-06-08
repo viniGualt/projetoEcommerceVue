@@ -64,8 +64,8 @@ o
 
 - Exemplo de requisição: GET https://dummyjson.com/products?limit=10&skip=0
 
-Link do youtube: 
+Link do youtube: https://www.youtube.com/watch?v=Djh5OgEQ7UM
 
 Participantes:<br>
-Vinicius Gualtieri Moraes <br>>
-Kauã Henrique Zefferino Santana
+Vinicius Gualtieri Moraes - 2002601 <br>>
+Kauã Henrique Zefferino Santana - 2012119 
